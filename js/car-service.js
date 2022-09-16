@@ -21,7 +21,6 @@ function getCars() {
         return car.vendor.includes(gFilterBy.vendor) &&
             car.maxSpeed <= gFilterBy.maxSpeed
     })
-
     var startIdx = gPageIdx * PAGE_SIZE;
     cars.slice(startIdx, startIdx + PAGE_SIZE)
     return cars;
