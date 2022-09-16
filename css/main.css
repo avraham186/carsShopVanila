@@ -8,7 +8,7 @@
     padding: 5px;
 }
 
-.cars-container {
+body .cars-container {
     background-color: white;
     display: flex;
     flex-wrap: wrap
